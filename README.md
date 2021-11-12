@@ -16,3 +16,15 @@ terraform apply
 ```
 aws eks --region us-east-1 update-kubeconfig --name my-eks-cluster
 ```
+
+
+## Deploy Prometheous Stack via helm chart
+
+### Prequsite
+1. Kubernetes authentication
+2. Helm3 Installed
+
+```
+cd helm-charts
+helm install prometheous ./kube-prometheus-stack
+```
