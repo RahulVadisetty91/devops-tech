@@ -1,3 +1,4 @@
 terraform-eks/.terraform/*
 terraform-eks/*.tfstate
 terraform-eks/*.tfstate.*
+.DS_Store
