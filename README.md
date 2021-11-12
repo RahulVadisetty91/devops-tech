@@ -12,7 +12,7 @@ cd terraform eks
 terraform init
 terraform apply
 ```
-# To interact with your cluster, run this command in your terminal:
+## To interact with your cluster, run this command in your terminal:
 ```
 aws eks --region us-east-1 update-kubeconfig --name my-eks-cluster
 ```
