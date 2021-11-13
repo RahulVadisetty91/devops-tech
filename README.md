@@ -8,7 +8,7 @@
 5. Kubectl
 
 ```
-cd terraform eks
+cd terraform-eks
 terraform init
 terraform apply
 ```
